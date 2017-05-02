@@ -54,7 +54,15 @@
           {
             vocabulary: "Writing Exercise",
             write: true
-          }
+          },
+          {
+            header: "Unit 3",
+            vocabulary: "Vocabulary",
+            grammar: "Grammar"
+          },
+          {
+            vocabulary: "Kanji Exercise",
+          },
         ]
       }
     },
