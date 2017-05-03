@@ -13,13 +13,13 @@
               class="form-horizontal"
               @submit.prevent="validate">
               <div class="form-group">
-                <label class="control-label col-sm-2" for="word">Write in Hiragana/Katakana:</label>
+                <label class="control-label col-sm-2" for="word">Write in Hiragana/Katakana/Kanji:</label>
                 <div class="col-sm-10">
                   <input
                     type="text"
                     class="form-control"
                     id="word"
-                    placeholder="Hiragana/Katakana"
+                    placeholder="Hiragana/Katakana/Kanji"
                     v-model="input" />
                 </div>
               </div>

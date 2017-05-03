@@ -63,6 +63,10 @@
           {
             vocabulary: "Kanji Exercise",
           },
+          {
+            vocabulary: "Writing Exercise",
+            write: true
+          }
         ]
       }
     },

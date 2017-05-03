@@ -7,6 +7,7 @@ import { b1u2Kanji } from './B1Unit2Kanji'
 import { b1u2Write } from './B1Unit2Write'
 import { b1u3 } from './B1Unit3'
 import { b1u3Kanji } from './B1Unit3Kanji'
+import { b1u3Write } from './B1Unit3Write'
 
 export const states = {
   start: 0,
@@ -21,7 +22,8 @@ export const states = {
     b1u2Kanji,
     b1u2Write,
     b1u3,
-    b1u3Kanji
+    b1u3Kanji,
+    b1u3Write
   ]
 }
 

@@ -6,7 +6,7 @@
       @update="openSide = $event">
       <v-ons-page>
         <v-ons-list>
-          <v-ons-list-item 
+          <v-ons-list-item
             v-for="page in pages"
             tappable modifier="chevron"
             @click="currentPage = page; openSide = false">
@@ -14,10 +14,10 @@
           </v-ons-list-item>
         </v-ons-list>
       </v-ons-page>
-    </v-ons-splitter-side> 
+    </v-ons-splitter-side>
 
-    <v-ons-splitter-content> 
-      <component 
+    <v-ons-splitter-content>
+      <component
         :is="currentPage" :toggle-menu="() => openSide = !openSide"></component>
     </v-ons-splitter-content>
   </v-ons-splitter>
@@ -25,17 +25,19 @@
 
 <script>
   import BookOne from './pages/BookOne';
+  import AppReference from './pages/Reference';
 
   export default {
     data() {
       return {
         currentPage: 'book-one',
-        pages: ['book-one'],
+        pages: ['book-one', 'app-reference'],
         openSide: false
       }
     },
     components: {
-      "book-one": BookOne
+      "book-one": BookOne,
+      "app-reference": AppReference
     }
   }
 </script>
