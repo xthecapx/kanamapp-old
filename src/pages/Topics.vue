@@ -11,7 +11,7 @@
         v-if="topic.grammar"
         modifier="chevron"
         tappable
-        @click="goGrammar"
+        @click="goGrammar(key, topic.header)"
         :key="key">{{topic.grammar}}</v-ons-list-item>
       <v-ons-list-item
         v-if="topic.vocabulary"
@@ -66,6 +66,18 @@
           {
             vocabulary: "Writing Exercise",
             write: true
+          },
+          {
+            header: "Unit 4",
+            vocabulary: "Vocabulary",
+            grammar: "Grammar"
+          },
+          {
+            vocabulary: "Kanji Exercise",
+          },
+          {
+            vocabulary: "Writing Exercise",
+            write: true
           }
         ]
       }
@@ -78,7 +90,23 @@
         this.verifyType(isWrite)
         this.$emit('mode', 'vocabulary')
       },
-      goGrammar() {
+      goGrammar(key, header) {
+        switch(header) {
+            case "Unit 1":
+                this.$store.commit("setType", 'b1u1')
+                break;
+            case "Unit 2":
+                this.$store.commit("setType", 'b1u2')
+                break;
+            case "Unit 3":
+                this.$store.commit("setType", 'b1u3')
+                break;
+            case "Unit 4":
+                this.$store.commit("setType", 'b1u4')
+                break;
+            default:
+                this.$store.commit("setType", 'b1u1')
+        }
         this.$emit('mode', 'grammar')
       },
       verifyType(isWrite) {

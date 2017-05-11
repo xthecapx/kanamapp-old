@@ -13,7 +13,6 @@ import App from './App.vue';
 Vue.use(VueOnsen);
 Vue.use(ClientTable);
 
-
 new Vue({
   el: '#app',
   template: '<app></app>',

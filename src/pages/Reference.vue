@@ -12,7 +12,6 @@
           v-for="(value, key) in getVocabulary"
           :value="key">{{ value.name }}</option>
       </select>
-
     </div>
     <div class="table-wrapper">
       <v-client-table
