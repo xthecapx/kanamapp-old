@@ -32,14 +32,14 @@
   export default {
     data() {
       return {
-        currentPage: 'book-one',
-        pages: ['book-one', 'app-reference'],
+        currentPage: 'BookOne',
+        pages: ['BookOne', 'Answer'],
         openSide: false
       }
     },
     components: {
-      "book-one": BookOne,
-      "app-reference": AppReference
+      "BookOne": BookOne,
+      "Answer": AppReference
     }
   }
 </script>

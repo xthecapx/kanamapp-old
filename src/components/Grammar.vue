@@ -1,6 +1,6 @@
 <template id="grammar">
   <div class="row">
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+    <div class="col-xs-12 col-sm-8 col-md-6">
       <v-ons-button modifier="quiet" style="margin: 6px 0" @click="goTopics">Go Topics</v-ons-button>
       <transition
           enter-active-class="animated bounceInRight"

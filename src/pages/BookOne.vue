@@ -17,10 +17,10 @@
 </template>
 
 <script>
-  import customToolbar from '../commons/Toolbar'
-  import Vocabulary from './Vocabulary.vue';
-  import Topics from './Topics.vue';
-  import Grammar from './Grammar.vue';
+  import customToolbar from '../components/commons/Toolbar'
+  import Vocabulary from '../components/Vocabulary';
+  import Topics from '../components/Topics';
+  import Grammar from '../components/Grammar';
 
   export default {
     data() {

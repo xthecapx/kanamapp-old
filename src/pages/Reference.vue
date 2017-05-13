@@ -3,27 +3,29 @@
     <custom-toolbar
       title="Reference"
       :action="toggleMenu"></custom-toolbar>
-    <div class="form-group">
-      <label for="sel1">Check Answers:</label>
-      <select
-        class="form-control"
-        v-model="topic">
-        <option
-          v-for="(value, key) in getVocabulary"
-          :value="key">{{ value.name }}</option>
-      </select>
-    </div>
-    <div class="table-wrapper">
-      <v-client-table
-        :data="tableData"
-        :columns="columns"
-        :options="options"></v-client-table>
+    <div class="reference-container">
+      <div class="form-group">
+        <label for="sel1">Check Answers:</label>
+        <select
+          class="form-control"
+          v-model="topic">
+          <option
+            v-for="(value, key) in getVocabulary"
+            :value="key">{{ value.name }}</option>
+        </select>
+      </div>
+      <div class="table-wrapper">
+        <v-client-table
+          :data="tableData"
+          :columns="columns"
+          :options="options"></v-client-table>
+      </div>
     </div>
   </v-ons-page>
 </template>
 
 <script>
-  import customToolbar from '../commons/Toolbar'
+  import customToolbar from '../components/commons/Toolbar'
   import { mapGetters } from 'vuex'
 
   export default {
@@ -59,3 +61,9 @@
     }
   }
 </script>
+
+<style>
+  .reference-container {
+    margin: 11px;
+  }
+</style>
