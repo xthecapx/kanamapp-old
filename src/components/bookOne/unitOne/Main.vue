@@ -1,6 +1,6 @@
-<template id="grammar">
-  <div class="row">
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+<template>
+  <div class="grammar">
+    <div class="col-xs-12 col-sm-8 col-md-6">
       <div class="form-group">
         <label for="sel1">What do you want to study?:</label>
         <select
@@ -32,8 +32,11 @@
   import Positive from './modules/Positive'
   import Negative from './modules/Negative'
   import Question from './modules/Question'
+  import Mo from './modules/Mo'
   import Introduction from './modules/Introduction'
   import Age from './modules/Age'
+  import Affiliation from './modules/Affiliation'
+  import { vocabulary } from './modules/Vocabulary'
 
   export default {
     data() {
@@ -46,40 +49,9 @@
             filterPlaceholder:'Type Here',
           }
         },
-        tableData: [
-          {
-            kanji: "先生",
-            sound: "きょうし",
-            en: "Teacher"
-          },
-          {
-            kanji: "学生",
-            sound: "がくせい",
-            en: "Students"
-          },
-          {
-            kanji: "銀行員",
-            sound: "ぎんこういん",
-            en: "Employee at company "
-          },
-          {
-            kanji: "医者",
-            sound: "いしゃ",
-            en: "Doctor"
-          },
-          {
-            kanji: "研究者",
-            sound: "けんきゅうしゃ",
-            en: "Investigador"
-          },
-          {
-            kanji: "エンジニア",
-            sound: "エンジニア",
-            en: "Engineer"
-          }
-        ],
+        tableData: vocabulary,
         display: "positive",
-        topics: ['positive', 'negative', 'question', 'introduction', 'age']
+        topics: ['positive', 'negative', 'question', 'mo', 'introduction', 'age', 'affiliation']
       }
     },
     methods: {
@@ -88,16 +60,18 @@
       }
     },
     components: {
-      "positive" :Positive,
-      "negative" :Negative,
-      "question" :Question,
-      "introduction" :Introduction,
-      "age" :Age
+      "positive": Positive,
+      "negative": Negative,
+      "question": Question,
+      "mo": Mo,
+      "introduction": Introduction,
+      "age" :Age,
+      "affiliation": Affiliation
     }
   }
 </script>
 
-<style scope>
+<style>
   .panel-title, .panel-body p {
     line-height: 20px;
   }

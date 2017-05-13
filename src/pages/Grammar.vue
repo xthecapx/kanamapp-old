@@ -68,4 +68,8 @@
   .optional {
     background: #E0E0E0;
   }
+
+  .list-item--chevron:before {
+    width: 20px;
+  }
 </style>
