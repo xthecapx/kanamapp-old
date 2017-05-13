@@ -1,3 +1,116 @@
 <template>
-  <p>Comming Soon!! Unit 2</p>
+  <div class="grammar">
+    <div class="col-xs-12 col-sm-8 col-md-6">
+      <div class="form-group">
+        <label for="sel1">What do you want to study?:</label>
+        <select
+          class="form-control"
+          v-model="display">
+          <option
+            v-for="topic in topics"
+            :value="topic.key">{{ topic.name }}</option>
+        </select>
+      </div>
+      <transition
+        enter-active-class="animated fadeInRight"
+        leave-active-class="animated fadeOutRight"
+        mode="out-in">
+        <component
+          :is="display"></component>
+      </transition>
+      <div class="table-wrapper">
+        <v-client-table
+          :data="tableData"
+          :columns="columns"
+          :options="options"></v-client-table>
+      </div>
+    </div>
+  </div>
 </template>
+
+<script>
+  import DemonstrativePronouns from './modules/DemonstrativePronouns'
+  import Negative from './modules/Negative'
+  import Question from './modules/Question'
+  import TwoObjectsQuestion from './modules/TwoObjectsQuestion'
+  import { vocabulary } from './modules/Vocabulary'
+
+  export default {
+    data() {
+      return {
+        columns: ['kanji', 'sound', 'en'],
+        options: {
+          perPage: 5,
+          texts: {
+            filter:'Vocabulary:',
+            filterPlaceholder:'Type Here',
+          }
+        },
+        tableData: vocabulary,
+        display: "demonstrative-pronouns",
+        topics: [
+          {
+            name: 'Demonstrative pronouns',
+            key: 'demonstrative-pronouns'
+          },
+          {
+            name: 'Negative demonstrative pronouns',
+            key: 'negative'
+          },
+          {
+            name: 'Question demonstrative pronouns',
+            key: 'question'
+          },
+          {
+            name: 'Two objects',
+            key: 'two-question'
+          }
+        ]
+      }
+    },
+    methods: {
+      goTopics() {
+        this.$emit('mode', 'topics')
+      }
+    },
+    components: {
+      "demonstrative-pronouns": DemonstrativePronouns,
+      "negative": Negative,
+      "question": Question,
+      "two-question": TwoObjectsQuestion
+    }
+  }
+</script>
+
+<style>
+  .panel-title, .panel-body p {
+    line-height: 20px;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+
+  .panel-body p {
+    line-height: 35px;
+  }
+
+  .kanji-container {
+    display: inline-block;
+  }
+
+  .example {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .example.tab {
+    margin-left: 15px;
+  }
+
+  .example-container:last-child .example {
+    padding: 0;
+    border: 0;
+  }
+</style>

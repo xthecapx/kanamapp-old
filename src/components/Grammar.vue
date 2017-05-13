@@ -45,7 +45,7 @@
 </script>
 
 <style>
-  .particle, .end, .s1, .s2, .verb, .optional {
+  .particle, .end, .s1, .s2, .verb, .optional, .pronoun {
     padding: 3px;
   }
 
@@ -67,6 +67,10 @@
 
   .optional {
     background: #E0E0E0;
+  }
+
+  .pronoun {
+    background: #E3F2FD;
   }
 
   .list-item--chevron:before {

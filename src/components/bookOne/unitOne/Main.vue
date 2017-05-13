@@ -7,8 +7,8 @@
           class="form-control"
           v-model="display">
           <option
-            v-for="value in topics"
-            :value="value">{{ value }}</option>
+            v-for="topic in topics"
+            :value="topic.key">{{ topic.name }}</option>
         </select>
       </div>
       <transition
@@ -51,7 +51,36 @@
         },
         tableData: vocabulary,
         display: "positive",
-        topics: ['positive', 'negative', 'question', 'mo', 'introduction', 'age', 'affiliation']
+        topics: [
+          {
+            name: 'Postive Sentence',
+            key: 'positive'
+          },
+          {
+            name: 'Negative Sentence',
+            key: 'negative'
+          },
+          {
+            name: 'Question Sentence',
+            key: 'question'
+          },
+          {
+            name: 'Generic Answer',
+            key: 'mo'
+          },
+          {
+            name: 'Introduce yourself',
+            key: 'introduction'
+          },
+          {
+            name: 'What is my age?',
+            key: 'age'
+          },
+          {
+            name: 'Where do I work?',
+            key: 'affiliation'
+          }
+        ]
       }
     },
     methods: {
