@@ -63,5 +63,20 @@ export const vocabulary = [
     kanji: "くつ",
     sound: "くつ",
     en: "Shoes"
+  },
+  {
+    kanji: "病院",
+    sound: "びょういん",
+    en: "Hospital"
+  },
+  {
+    kanji: "食堂",
+    sound: "しょくどう",
+    en: "Canteen"
+  },
+  {
+    kanji: "会議室",
+    sound: "かいぎしつ",
+    en: "Conference Room"
   }
 ];
