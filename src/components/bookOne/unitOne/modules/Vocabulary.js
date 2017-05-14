@@ -58,5 +58,45 @@ export const vocabulary = [
     kanji: "グーグル",
     sound: "グーグル",
     en: "Google"
+  },
+  {
+    kanji: "日本語",
+    sound: "グーグル",
+    en: "Japanese"
+  },
+  {
+    kanji: "スペイン語",
+    sound: "にほんご",
+    en: "Spanish"
+  },
+  {
+    kanji: "英語",
+    sound: "えいご",
+    en: "English"
+  },
+  {
+    kanji: "韓国語",
+    sound: "かんこくご",
+    en: "Korean"
+  },
+  {
+    kanji: "中国語",
+    sound: "ちゅごくご",
+    en: "Chinese"
+  },
+  {
+    kanji: "ドイツ語",
+    sound: "ドイツご",
+    en: "German"
+  },
+  {
+    kanji: "イタリア語",
+    sound: "イタリアご",
+    en: "Italian"
+  },
+  {
+    kanji: "フランス語",
+    sound: "フランスご",
+    en: "French"
   }
 ];

@@ -33,6 +33,7 @@
   import Negative from './modules/Negative'
   import Question from './modules/Question'
   import TwoObjectsQuestion from './modules/TwoObjectsQuestion'
+  import Owner from './modules/Owner'
   import { vocabulary } from './modules/Vocabulary'
 
   export default {
@@ -64,6 +65,10 @@
           {
             name: 'Two objects',
             key: 'two-question'
+          },
+          {
+            name: 'Owners',
+            key: 'owner'
           }
         ]
       }
@@ -77,7 +82,8 @@
       "demonstrative-pronouns": DemonstrativePronouns,
       "negative": Negative,
       "question": Question,
-      "two-question": TwoObjectsQuestion
+      "two-question": TwoObjectsQuestion,
+      "owner": Owner
     }
   }
 </script>
