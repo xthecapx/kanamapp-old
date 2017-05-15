@@ -6,6 +6,9 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title text-center">{{ question }}</h3>
+            <div v-if="translate" class="helper">
+              <p>{{ translate }}</p>
+            </div>
         </div>
         <div class="panel-body">
             <div class="col-xs-12 col-sm-6 text-center">
@@ -33,6 +36,7 @@
         data() {
             return {
                 question: "No more words!!!",
+                translate: "",
                 image: "",
                 btnData: [
                     {correct: true, answer: 0},
@@ -67,6 +71,7 @@
               }
 
               this.question = word.question
+              this.translate = word.en
               this.image = word.img
             },
             generateRandomNumber(min, max, except) {
