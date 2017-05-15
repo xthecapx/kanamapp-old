@@ -78,5 +78,50 @@ export const vocabulary = [
     kanji: "会議室",
     sound: "かいぎしつ",
     en: "Conference Room"
+  },
+  {
+    kanji: "事務所",
+    sound: "じむしょ",
+    en: "Office"
+  },
+  {
+    kanji: "大学",
+    sound: "だいがく",
+    en: "University"
+  },
+  {
+    kanji: "鈴木",
+    sound: "すずき",
+    en: "Susuki"
+  },
+  {
+    kanji: "階段",
+    sound: "かいだん",
+    en: "Stairs"
+  },
+  {
+    kanji: "階",
+    sound: "かい",
+    en: "Floor"
+  },
+  {
+    kanji: "会社",
+    sound: "かいしゃ",
+    en: "Company"
+  },
+  {
+    kanji: "ドイツ",
+    sound: "ドイツ",
+    en: "Germany"
+  },
+  {
+    kanji: "フォード",
+    sound: "フォード",
+    en: "Ford"
+  },
+  {
+    kanji: "たまご",
+    sound: "たまご",
+    en: "Egg"
   }
 ];

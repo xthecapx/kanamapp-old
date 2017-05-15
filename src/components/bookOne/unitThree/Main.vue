@@ -29,7 +29,13 @@
 </template>
 
 <script>
-  import Demonstratives from './modules/Demonstratives'
+  import Koko from './modules/Koko'
+  import Soko from './modules/Soko'
+  import Asoko from './modules/Asoko'
+  import Places from './modules/Places'
+  import Countries from './modules/Countries'
+  import Prices from './modules/Prices'
+  import Others from './modules/Others'
   import { vocabulary } from './modules/Vocabulary'
 
   export default {
@@ -44,11 +50,35 @@
           }
         },
         tableData: vocabulary,
-        display: "demonstratives",
+        display: "koko",
         topics: [
           {
-            name: 'Demonstratives determiners',
-            key: 'demonstratives'
+            name: 'Demonstratives determiners (ここ)',
+            key: 'koko'
+          },
+          {
+            name: 'Demonstratives determiners (そこ)',
+            key: 'soko'
+          },
+          {
+            name: 'Demonstratives determiners (あそこ)',
+            key: 'asoko'
+          },
+          {
+            name: 'Places',
+            key: 'places'
+          },
+          {
+            name: 'Countries/Company questions',
+            key: 'countries'
+          },
+          {
+            name: 'Asking prices',
+            key: 'prices'
+          },
+          {
+            name: 'Others expressions',
+            key: 'others'
           }
         ]
       }
@@ -59,7 +89,13 @@
       }
     },
     components: {
-      "demonstratives": Demonstratives
+      "koko": Koko,
+      "soko": Soko,
+      "asoko": Asoko,
+      "places": Places,
+      "countries": Countries,
+      "prices": Prices,
+      "others": Others
     }
   }
 </script>
