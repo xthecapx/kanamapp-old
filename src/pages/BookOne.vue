@@ -2,7 +2,7 @@
   <v-ons-page>
     <custom-toolbar title="Book One" :action="toggleMenu"></custom-toolbar>
     <div class="row">
-      <div class="col-xs-12 col-sm-8 col-md-6">
+      <div class="col-xs-12 col-sm-8 col-md-12">
         <transition
           enter-active-class="animated bounceInRight"
           leave-active-class="animated bounceOutRight"

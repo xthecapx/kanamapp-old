@@ -1,6 +1,6 @@
 <template>
   <div class="grammar">
-    <div class="col-xs-12 col-sm-8 col-md-6">
+    <div class="col-xs-12 col-sm-8 col-md-12">
       <div class="form-group">
         <label for="sel1">What do you want to study?:</label>
         <select
