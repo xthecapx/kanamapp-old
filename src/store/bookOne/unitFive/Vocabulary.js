@@ -6,7 +6,7 @@ export const Vocabulary = {
       question: '行きます　(いきます)',
       answers: ['To go', 'To leave', 'Going back', 'Leave'],
       answer: 'To go',
-      img: "images/b1u5/vocabulary/go.png"
+      img: "images/b1u5/vocabulary/go.jpg"
     },
     {
       en: 'Come',
@@ -72,10 +72,10 @@ export const Vocabulary = {
       img: "images/b1u5/vocabulary/bicycle.png"
     },
     {
-      en: '',
+      en: 'Person',
       question: '人　(ひと)',
       answers: ['Person', 'Friend', 'Boyfriend', 'Girlfriend'],
-      answer: 'かようび',
+      answer: 'Person',
       img: "images/b1u5/vocabulary/person.png"
     },
     {
