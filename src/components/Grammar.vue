@@ -18,6 +18,8 @@
   import b1u2 from '../components/bookOne/unitTwo/Main'
   import b1u3 from '../components/bookOne/unitThree/Main'
   import b1u4 from '../components/bookOne/unitFour/Main'
+  import b1u5 from '../components/bookOne/unitFive/Main'
+
   import { mapGetters } from 'vuex'
 
   export default {
@@ -36,7 +38,8 @@
       b1u1,
       b1u2,
       b1u3,
-      b1u4
+      b1u4,
+      b1u5
     },
     created() {
         this.mode = this.getType

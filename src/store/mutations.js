@@ -1,36 +1,10 @@
-import { b1u1 } from './B1Unit1'
-import { b1u1Countries } from './B1Unit1Countries'
-import { b1u1Kanji } from './B1Unit1Kanji'
-import { b1u1Write } from './B1Unit1Write'
-import { b1u2 } from './B1Unit2'
-import { b1u2Kanji } from './B1Unit2Kanji'
-import { b1u2Write } from './B1Unit2Write'
-import { b1u3 } from './B1Unit3'
-import { b1u3Kanji } from './B1Unit3Kanji'
-import { b1u3Write } from './B1Unit3Write'
-import { b1u4 } from './B1Unit4'
-import { b1u4Kanji } from './B1Unit4Kanji'
-import { b1u4Write } from './B1Unit4Write'
+import { VOCABULARY } from './VOCABULARY'
 
 export const states = {
   start: 0,
   unit: 0,
   type: '',
-  vocabulary: [
-    b1u1,
-    b1u1Countries,
-    b1u1Kanji,
-    b1u1Write,
-    b1u2,
-    b1u2Kanji,
-    b1u2Write,
-    b1u3,
-    b1u3Kanji,
-    b1u3Write,
-    b1u4,
-    b1u4Kanji,
-    b1u4Write
-  ]
+  vocabulary: VOCABULARY
 }
 
 export const getters = {

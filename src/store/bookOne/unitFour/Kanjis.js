@@ -1,4 +1,4 @@
-export const b1u4Kanji = {
+export const Kanjis = {
   "name": "Unit 4 Kanji",
   "questions": [
     {

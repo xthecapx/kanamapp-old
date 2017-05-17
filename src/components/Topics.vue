@@ -78,6 +78,14 @@
           {
             vocabulary: "Writing Exercise",
             write: true
+          },
+          {
+            header: "Unit 5",
+            vocabulary: "Vocabulary",
+            grammar: "Grammar"
+          },
+          {
+            vocabulary: "Months Exercise",
           }
         ]
       }
@@ -103,6 +111,9 @@
                 break;
             case "Unit 4":
                 this.$store.commit("setType", 'b1u4')
+                break;
+            case "Unit 5":
+                this.$store.commit("setType", 'b1u5')
                 break;
             default:
                 this.$store.commit("setType", 'b1u1')
