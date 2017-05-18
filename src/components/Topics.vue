@@ -86,6 +86,9 @@
           },
           {
             vocabulary: "Months Exercise",
+          },
+          {
+            vocabulary: "Kanji Exercise",
           }
         ]
       }
