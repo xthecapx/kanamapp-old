@@ -4,12 +4,20 @@ export const states = {
   start: 0,
   unit: 0,
   type: '',
-  vocabulary: VOCABULARY
+  vocabulary: VOCABULARY,
+  progressBar: 0,
+  errors: []
 }
 
 export const getters = {
   getStart(state) {
     return state.start
+  },
+  getErrors(state) {
+    return state.errors
+  },
+  getProgressBar(state) {
+    return state.progressBar
   },
   getUnit(state) {
     return state.unit
@@ -25,6 +33,15 @@ export const getters = {
 export const mutations = {
   setVocabulary(state, info) {
     state.vocabulary[info.key] = info.vocabulary
+  },
+  setProgressBar(state, progressBar) {
+    state.progressBar = progressBar
+  },
+  setErrors(state, error) {
+    state.errors.push(error)
+  },
+  clearErrors(state) {
+    state.errors = []
   },
   setStart(state, start) {
     state.start = start

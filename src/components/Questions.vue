@@ -32,6 +32,7 @@
       data() {
           return {
               question: "No more words!!!",
+              answer: "",
               translate: "",
               image: "",
               btnData: [
@@ -46,15 +47,15 @@
       methods: {
           generateQuestion() {
             let words = this.getVocabulary[this.getUnit].questions
+            this.updateProgress(words)
 
             if (this.getStart > words.length - 1) {
-              console.log("No more words")
+              this.$emit('results');
               return
             }
 
             let word = words[this.getStart]
             let answers = this.shuffle(word.answers)
-
             this.$store.commit("setStart", this.getStart + 1)
 
             for (let i = 0, l = answers.length; i < l; i++ ) {
@@ -67,6 +68,7 @@
             }
 
             this.question = word.question
+            this.answer = word.answer
             this.translate = word.en
             this.image = word.img
           },
@@ -94,7 +96,16 @@
             return array;
           },
           onAnswer(isCorrect) {
-              this.$emit('answered', isCorrect);
+            let answered = {
+              isCorrect: isCorrect,
+              question: this.question,
+              answer: this.answer
+            }
+
+            this.$emit('answered', answered);
+          },
+          updateProgress(words) {
+            this.$store.commit("setProgressBar", this.getStart*100 / words.length)
           }
       },
       components: { tooltipHeading },
