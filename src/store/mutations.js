@@ -3,6 +3,7 @@ import { VOCABULARY } from './VOCABULARY'
 export const states = {
   start: 0,
   unit: 0,
+  id: 0,
   type: '',
   vocabulary: VOCABULARY,
   progressBar: 0,
@@ -18,6 +19,9 @@ export const getters = {
   },
   getProgressBar(state) {
     return state.progressBar
+  },
+  getId(state) {
+    return state.id
   },
   getUnit(state) {
     return state.unit
@@ -49,11 +53,14 @@ export const mutations = {
   setUnit(state, unit) {
     state.unit = unit
   },
+  setId(state, id) {
+    state.id = id
+  },
   setType(state, type) {
     state.type = type
   },
-  shuffleQuestions(state, key) {
-    let questions = state.vocabulary[key].questions,
+  shuffleQuestions(state, options) {
+    let questions = state.vocabulary[options.id][options.key].questions,
         currentIndex = questions.length,
         temporaryValue,
         randomIndex;

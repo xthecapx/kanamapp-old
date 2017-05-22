@@ -1,10 +1,10 @@
 export const Kanjis = {
-  "name": "Unit 4 Kanji",
+  "name": "Unit 5 Kanji",
   "questions": [
     {
       en: "To see",
       question: '見ます',
-      answers: ['み', 'い', 'この', 'た'],
+      answers: ['みます', 'います', 'このます', 'たます'],
       answer: 'み',
       img: "images/b1u5/kanji/see.png"
     },
@@ -90,7 +90,7 @@ export const Kanjis = {
       question: '飲食店',
       answers: ['いんしょくてん', 'のみます', 'しょくどう', 'たべます'],
       answer: 'いんしょくてん',
-      img: "images/b1u5/kanji/restaurant.jpg"
+      img: "images/b1u5/kanji/restaurant.png"
     },
     {
       en: "Meet",
@@ -111,7 +111,7 @@ export const Kanjis = {
       question: '耳',
       answers: ['みみ', 'きょ', 'とし', 'はは'],
       answer: 'みみ',
-      img: "images/b1u5/kanji/ear.jpg"
+      img: "images/b1u5/kanji/ear.png"
     },
     {
       en: "Listen",

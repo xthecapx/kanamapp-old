@@ -155,13 +155,13 @@ export const Writing = {
       question: '東',
       en: 'East',
       answer: 'ひがし',
-      img: "images/b1u3/kanji/east.gif"
+      img: "images/b1u3/kanji/east.png"
     },
     {
       question: '西',
       en: 'West',
       answer: 'にし',
-      img: "images/b1u3/kanji/west.gif"
+      img: "images/b1u3/kanji/west.jpg"
     },
     {
       question: '南',

@@ -27,7 +27,7 @@ export const Vocabulary = {
       question: '学校 (がっこう)',
       answers: ['School', 'Supermarket', 'Hospital', 'Room'],
       answer: 'School',
-      img: "images/b1u5/vocabulary/library.jpg"
+      img: "images/b1u5/vocabulary/school.png"
     },
     {
       en: 'Supermarket',

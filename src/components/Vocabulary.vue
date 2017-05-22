@@ -1,7 +1,7 @@
 <template id="vocabulary">
   <div class="row">
     <v-ons-progress-bar :value="getProgressBar"></v-ons-progress-bar>
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-12 col-md-offset-3">
+    <div class="col-xs-12 col-sm-8 col-md-12">
       <v-ons-button modifier="quiet" style="margin: 6px 0" @click="goTopics">Go Topics</v-ons-button>
       <transition
         enter-active-class="animated flipInY"

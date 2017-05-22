@@ -185,7 +185,7 @@ export const Writing = {
       question: '分',
       en: 'Minute',
       answer: 'ぷん',
-      img: "images/b1u2/kanji/minute.jpg"
+      img: "images/b1u2/kanji/minute.gif"
     }
   ]
 }

@@ -44,7 +44,7 @@
               word: {}
           };
       },
-      computed: mapGetters(['getStart', 'getVocabulary', 'getUnit']),
+      computed: mapGetters(['getStart', 'getVocabulary', 'getUnit', 'getId']),
       methods: {
           generateQuestion() {
             if (this.getStart > 10) {
@@ -52,7 +52,7 @@
               return
             }
 
-            this.word = this.getVocabulary[this.getUnit].questions[this.getStart]
+            this.word = this.getVocabulary[this.getId][this.getUnit].questions[this.getStart]
             this.$store.commit("setStart", this.getStart + 1)
           },
           validate() {

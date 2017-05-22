@@ -43,10 +43,10 @@
               ]
           };
       },
-      computed: mapGetters(['getStart', 'getVocabulary', 'getUnit']),
+      computed: mapGetters(['getStart', 'getVocabulary', 'getUnit', 'getId']),
       methods: {
           generateQuestion() {
-            let words = this.getVocabulary[this.getUnit].questions
+            let words = this.getVocabulary[this.getId][this.getUnit].questions
             this.updateProgress(words)
 
             if (this.getStart > words.length - 1) {

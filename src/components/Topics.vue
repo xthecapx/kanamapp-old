@@ -6,19 +6,20 @@
       </div>
     </div>
     <template v-for="(topic, key) in topics">
-      <v-ons-list-header v-if="topic.header">{{topic.header}}</v-ons-list-header>
-      <v-ons-list-item
-        v-if="topic.grammar"
-        modifier="chevron"
-        tappable
-        @click="goGrammar(key, topic.header)"
-        :key="key">{{topic.grammar}}</v-ons-list-item>
-      <v-ons-list-item
-        v-if="topic.vocabulary"
-        modifier="chevron"
-        tappable
-        @click="goVocabulary(key, topic.write)"
-        :key="key">{{topic.vocabulary}}</v-ons-list-item>
+      <v-ons-list-header>{{topic.header}}</v-ons-list-header>
+      <div class="content">
+        <v-ons-list-item
+          modifier="chevron"
+          tappable
+          @click="goGrammar(key, topic.header)"
+          :key="key">{{topic.grammar}}</v-ons-list-item>
+        <v-ons-list-item
+          modifier="chevron"
+          tappable
+          @click="goVocabulary(subkey, unit.write, topic.id)"
+          :key="subkey"
+          v-for="(unit, subkey) in topic.units">{{unit.vocabulary}}</v-ons-list-item>
+      </div>
     </template>
   </v-ons-list>
 </template>
@@ -29,75 +30,104 @@
       return {
         topics: [
           {
+            id: "unitOne",
             header: "Unit 1",
-            vocabulary: "Vocabulary",
-            grammar: "Grammar"
+            grammar: "Grammar",
+            units: [
+              {
+                vocabulary: "General Vocabulary"
+              },
+              {
+                vocabulary: "Countries Exercise"
+              },
+              {
+                vocabulary: "Kanji Exercise"
+              },
+              {
+                vocabulary: "Writing Exercise",
+                write: true
+              }
+            ]
           },
           {
-            vocabulary: "Countries Exercise",
-          },
-          {
-            vocabulary: "Kanji Exercise",
-          },
-          {
-            vocabulary: "Writing Exercise",
-            write: true
-          },
-          {
+            id: "unitTwo",
             header: "Unit 2",
-            vocabulary: "Vocabulary",
-            grammar: "Grammar"
+            grammar: "Grammar",
+            units: [
+              {
+                vocabulary: "General Vocabulary"
+              },
+              {
+                vocabulary: "Kanji Exercise",
+              },
+              {
+                vocabulary: "Writing Exercise",
+                write: true
+              }
+            ]
           },
           {
-            vocabulary: "Kanji Exercise",
-          },
-          {
-            vocabulary: "Writing Exercise",
-            write: true
-          },
-          {
+            id: "unitThree",
             header: "Unit 3",
-            vocabulary: "Vocabulary",
-            grammar: "Grammar"
+            grammar: "Grammar",
+            units: [
+              {
+                vocabulary: "General Vocabulary"
+              },
+              {
+                vocabulary: "Kanji Exercise",
+              },
+              {
+                vocabulary: "Writing Exercise",
+                write: true
+              }
+            ]
           },
           {
-            vocabulary: "Kanji Exercise",
-          },
-          {
-            vocabulary: "Writing Exercise",
-            write: true
-          },
-          {
+            id: "unitFour",
             header: "Unit 4",
-            vocabulary: "Vocabulary",
-            grammar: "Grammar"
+            grammar: "Grammar",
+            units: [
+              {
+                vocabulary: "General Vocabulary"
+              },
+              {
+                vocabulary: "Kanji Exercise",
+              },
+              {
+                vocabulary: "Writing Exercise",
+                write: true
+              }
+            ]
           },
           {
-            vocabulary: "Kanji Exercise",
-          },
-          {
-            vocabulary: "Writing Exercise",
-            write: true
-          },
-          {
+            id: "unitFive",
             header: "Unit 5",
-            vocabulary: "Vocabulary",
-            grammar: "Grammar"
-          },
-          {
-            vocabulary: "Months Exercise",
-          },
-          {
-            vocabulary: "Kanji Exercise",
+            grammar: "Grammar",
+            units: [
+              {
+                vocabulary: "General Vocabulary"
+              },
+              {
+                vocabulary: "Months Exercise"
+              },
+              {
+                vocabulary: "Kanji Exercise"
+              },
+              {
+                vocabulary: "Find Kanji Exercise"
+              }
+            ]
           }
         ]
       }
     },
     methods: {
-      goVocabulary(key, isWrite) {
+      goVocabulary(key, isWrite, id) {
         this.$store.commit("setStart", 0)
-        this.$store.commit("shuffleQuestions", key)
+        this.$store.commit("shuffleQuestions", { key, id })
         this.$store.commit("setUnit", key)
+        this.$store.commit("setId", id)
         this.verifyType(isWrite)
         this.$emit('mode', 'vocabulary')
       },

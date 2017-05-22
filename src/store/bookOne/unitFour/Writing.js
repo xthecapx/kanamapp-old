@@ -65,7 +65,7 @@ export const Writing = {
       question: '母',
       en: 'Mother',
       answer: 'はは',
-      img: "images/b1u4/kanji/mother.gif"
+      img: "images/b1u4/kanji/mother.png"
     },
     {
       question: '年',
