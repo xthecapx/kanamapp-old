@@ -5,7 +5,7 @@ export const Kanjis = {
       en: "To see",
       question: '見ます',
       answers: ['みます', 'います', 'このます', 'たます'],
-      answer: 'み',
+      answer: 'みます',
       img: "images/b1u5/kanji/see.png"
     },
     {
@@ -72,7 +72,7 @@ export const Kanjis = {
       img: "images/b1u5/kanji/eat.png"
     },
     {
-      en: "",
+      en: "Cafeteria",
       question: '食堂',
       answers: ['しょくどう', 'はは', 'なん', 'なま'],
       answer: 'しょくどう',

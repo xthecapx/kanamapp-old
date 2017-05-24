@@ -60,8 +60,8 @@ export const Days = {
     {
       en: 'The Ninth',
       question: '九日　(ここのか)',
-      answers: ['September', 'October', 'May', 'June'],
-      answer: 'September',
+      answers: ['9th', '1th', '19th', '29th'],
+      answer: '9th',
       img: "images/b1u5/days/calendar.png"
     },
     {
