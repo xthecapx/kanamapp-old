@@ -1,7 +1,7 @@
-import { Vocabulary } from './Vocabulary' //14
-import { Months } from './Months' //15
-import { Kanjis } from './Kanjis' //16
-import { FindKanjis } from './FindKanjis' //17
-//import { Writing } from './Writing' //18
+import { Vocabulary } from './Vocabulary'
+import { Months } from './Months'
+import { Days } from './Days'
+import { Kanjis } from './Kanjis'
+import { FindKanjis } from './FindKanjis'
 
-export const unitFive = [Vocabulary, Months, Kanjis, FindKanjis]
+export const unitFive = [Vocabulary, Months, Days, Kanjis, FindKanjis]

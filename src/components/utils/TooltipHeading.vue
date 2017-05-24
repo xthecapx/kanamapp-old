@@ -38,6 +38,8 @@
     padding: 5px 15px;
     position: absolute;
     left: 50%;
+    -ms-transform: translate(-50%, 0); /* IE 9 */
+    -webkit-transform: translate(-50%, 0); /* Safari */
     transform: translate(-50%, 0);
   }
 

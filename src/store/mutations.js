@@ -1,4 +1,5 @@
 import { VOCABULARY } from './VOCABULARY'
+import { TOPICS } from './TOPICS'
 
 export const states = {
   start: 0,
@@ -6,6 +7,7 @@ export const states = {
   id: 0,
   type: '',
   vocabulary: VOCABULARY,
+  topics: TOPICS,
   progressBar: 0,
   errors: []
 }
@@ -31,6 +33,9 @@ export const getters = {
   },
   getType(state) {
     return state.type
+  },
+  getTopics(state) {
+    return state.topics
   }
 }
 

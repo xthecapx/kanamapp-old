@@ -99,6 +99,7 @@
             let answered = {
               isCorrect: isCorrect,
               question: this.question,
+              en: this.translate,
               answer: this.answer
             }
 

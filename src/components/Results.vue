@@ -10,12 +10,14 @@
           <tr>
             <th>Question</th>
             <th>Answer</th>
+            <th>EN</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="error in getErrors">
             <td>{{error.question}}</td>
             <td>{{error.answer}}</td>
+            <td>{{error.translate}}</td>
           </tr>
         </tbody>
       </table>
