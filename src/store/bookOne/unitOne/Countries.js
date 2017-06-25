@@ -2,136 +2,136 @@ export const Countries = {
   "name": "Unit 1 Countries",
   "questions": [
     {
-      en: 'America',
-      question: 'アメリカ',
-      answers: ['Amerika', 'America', 'Amrica', 'Yamerica'],
-      answer: 'Amerika',
+      en: 'Amerika',
+      question: 'Write in Japanese: America',
+      answers: ['アメリカ', 'イギリス', 'イタリア', 'インド'],
+      answer: 'アメリカ',
       img: "images/b1u1/countries/america.png"
     },
     {
-      en: 'England',
-      question: 'イギリス',
-      answers: ['Igirisu', 'Ikirisu', 'Imirisu', 'Agirisu'],
-      answer: 'Igirisu',
+      en: 'Igirisu',
+      question: 'Write in Japanese: England',
+      answers: ['イギリス', 'イタリア', 'インド', 'インドネシア'],
+      answer: 'イギリス',
       img: "images/b1u1/countries/england.png"
     },
     {
-      en: 'Italy',
-      question: 'イタリア',
-      answers: ['Itaria', 'Inaria', 'Etaria', 'Jitaria'],
-      answer: 'Itaria',
+      en: 'Itaria',
+      question: 'Write in Japanese: Italy',
+      answers: ['イタリア', 'インド', 'インドネシア', 'エジプト'],
+      answer: 'イタリア',
       img: "images/b1u1/countries/italy.png"
     },
     {
-      en: 'India',
-      question: 'インド',
-      answers: ['Indo', 'Ido', 'Intsu', 'Into'],
-      answer: 'Indo',
+      en: 'Indo',
+      question: 'Write in Japanese: India',
+      answers: ['インド', 'インドネシア', 'エジプト', 'オーストラリア'],
+      answer: 'インド',
       img: "images/b1u1/countries/india.png"
     },
     {
-      en: 'Indonesia',
-      question: 'インドネシア',
-      answers: ['Indoneshia', 'Intoneshia', 'Indonechia', 'Intonechia'],
-      answer: 'Indoneshia',
+      en: 'Indonesha',
+      question: 'Write in Japanese: Indonesia',
+      answers: ['インドネシア', 'エジプト', 'オーストラリア', 'カナダ'],
+      answer: 'インドネシア',
       img: "images/b1u1/countries/indonesia.png"
     },
     {
-      en: 'Egypt',
-      question: 'エジプト',
-      answers: ['Ejiputo', 'Ehiputo', 'Ejipudo', 'Ehipudo'],
-      answer: 'Ejiputo',
+      en: 'Ejiputo',
+      question: 'Write in Japanese: Egypt',
+      answers: ['エジプト', 'オーストラリア', 'カナダ', 'スペイン'],
+      answer: 'エジプト',
       img: "images/b1u1/countries/egypt.png"
     },
     {
-      en: 'Australia',
-      question: 'オーストラリア',
-      answers: ['Oosutoraria', 'Osutoraria', 'Otsudoraria', 'Oozutorariya'],
-      answer: 'Oosutoraria',
+      en: 'Oosutoraria',
+      question: 'Write in Japanese: Australia',
+      answers: ['オーストラリア', 'カナダ', 'スペイン', 'タイ'],
+      answer: 'オーストラリア',
       img: "images/b1u1/countries/australia.png"
     },
     {
-      en: 'Canada',
-      question: 'カナダ',
-      answers: ['Kanada', 'Canada', 'Kanana', 'kaanaada'],
-      answer: 'Kanada',
+      en: 'Kanada',
+      question: 'Write in Japanese: Canada',
+      answers: ['カナダ', 'スペイン', 'タイ', 'ドイツ'],
+      answer: 'カナダ',
       img: "images/b1u1/countries/canada.png"
     },
     {
-      en: 'Spain',
-      question: 'スペイン',
-      answers: ['Supein', 'Zupein', 'Suhein', 'Spain'],
-      answer: 'Supein',
+      en: 'Supain',
+      question: 'Write in Japanese: Spain',
+      answers: ['スペイン', 'タイ', 'ドイツ', 'ハンガリイ'],
+      answer: 'スペイン',
       img: "images/b1u1/countries/spain.png"
     },
     {
-      en: 'Thailand',
-      question: 'タイ',
-      answers: ['Tai', 'Nai', 'Nae', 'Nati'],
-      answer: 'Tai',
+      en: 'Tai',
+      question: 'Write in Japanese: Thailand',
+      answers: ['タイ', 'ドイツ', 'ハンガリイ', 'フィリピン'],
+      answer: 'タイ',
       img: "images/b1u1/countries/thailand.png"
     },
     {
-      en: 'Germany',
-      question: 'ドイツ',
-      answers: ['Doitsu', 'Toitsu', 'Doiso', 'Toiso'],
-      answer: 'Doitsu',
+      en: 'Doitsu',
+      question: 'Write in Japanese: Germany',
+      answers: ['ドイツ', 'ハンガリイ', 'フィリピン', 'ブラジル'],
+      answer: 'ドイツ',
       img: "images/b1u1/countries/germany.png"
     },
     {
-      en: 'Hungary',
-      question: 'ハンガリイ',
-      answers: ['Hangarii', 'Toitsu', 'Doiso', 'Toiso'],
-      answer: 'Hangarii',
+      en: 'Hangarii',
+      question: 'Write in Japanese: Hungary',
+      answers: ['ハンガリー', 'フィリピン', 'ブラジル', 'フランス'],
+      answer: 'ハンガリー',
       img: "images/b1u1/countries/hungary.png"
     },
     {
-      en: 'Philippines',
-      question: 'フィリピン',
-      answers: ['Firipin', 'Toitsu', 'Doiso', 'Toiso'],
-      answer: 'Firipin',
+      en: 'Firipin',
+      question: 'Write in Japanese: Philippines',
+      answers: ['フィリピン', 'ブラジル', 'フランス', 'ベトナム'],
+      answer: 'フィリピン',
       img: "images/b1u1/countries/philippines.png"
     },
     {
-      en: 'Brazil',
-      question: 'ブラジル',
-      answers: ['Buranjiru', 'Puranjiru', 'Buranshiru', 'Puranju'],
-      answer: 'Buranjiru',
+      en: 'Burajiru',
+      question: 'Write in Japanese: Brazil',
+      answers: ['ブラジル', 'フランス', 'ベトナム', 'マレーシア'],
+      answer: 'ブラジル',
       img: "images/b1u1/countries/brazil.png"
     },
     {
-      en: 'France',
-      question: 'フランス',
-      answers: ['Furansu', 'Puransu', 'Huwansu', 'Huwantsu'],
-      answer: 'Furansu',
+      en: 'Furansu',
+      question: 'Write in Japanese: France',
+      answers: ['フランス', 'ベトナム', 'マレーシア', 'メキシコ'],
+      answer: 'フランス',
       img: "images/b1u1/countries/france.png"
     },
     {
-      en: 'Vietnam',
-      question: 'ベトナム',
-      answers: ['Betonamu', 'Petonamu', 'Pedonamu', 'Betotamu'],
-      answer: 'Betonamu',
+      en: 'Betonamu',
+      question: 'Write in Japanese: Vietnam',
+      answers: ['ベトナム', 'マレーシア', 'メキシコ', 'ロシア'],
+      answer: 'ベトナム',
       img: "images/b1u1/countries/vietnam.png"
     },
     {
-      en: 'Malaysia',
-      question: 'マレーシア',
-      answers: ['Mareeshia', 'Mareshia', 'Marechia', 'Mareechia'],
-      answer: 'Mareeshia',
+      en: 'Mareesha',
+      question: 'Write in Japanese: Malaysia',
+      answers: ['マレーシア', 'メキシコ', 'ロシア', 'アメリカ'],
+      answer: 'マレーシア',
       img: "images/b1u1/countries/malaysia.png"
     },
     {
-      en: 'Mexico',
-      question: 'メキシコ',
-      answers: ['Mekishiko', 'Megishiko', 'Megichiko', 'Mekichiko'],
-      answer: 'Mekishiko',
+      en: 'Mekishiko',
+      question: 'Write in Japanese: Mexico',
+      answers: ['メキシコ', 'ロシア', 'アメリカ', 'イギリス'],
+      answer: 'メキシコ',
       img: "images/b1u1/countries/mexico.png"
     },
     {
-      en: 'Russia',
-      question: 'ロシア',
-      answers: ['Roshia', 'Koshia', 'Rochia', 'Kochia'],
-      answer: 'Roshia',
+      en: 'Rosha',
+      question: 'Write in Japanese: Russia',
+      answers: ['ロシア', 'アメリカ', 'イギリス', 'イタリア'],
+      answer: 'ロシア',
       img: "images/b1u1/countries/russia.png"
     }
   ]

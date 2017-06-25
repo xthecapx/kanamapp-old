@@ -62,6 +62,9 @@ export const TOPICS = [
         vocabulary: "General Vocabulary"
       },
       {
+        vocabulary: "Weekdays Exercise",
+      },
+      {
         vocabulary: "Kanji Exercise",
       },
       {

@@ -2,94 +2,94 @@ export const Vocabulary = {
   "name": "Unit 3 General",
   "questions": [
     {
-      en: 'Classroom',
-      question: 'きょうしつ',
-      answers: ['kyoushitsu', 'gyochitsu', 'kyouchitsu', 'kyoushisu'],
-      answer: 'kyoushitsu',
+      en: 'Kyoushitsu',
+      question: 'Write in Japanese: Classroom',
+      answers: ['きょうしつ', 'しょくどう', 'じむしょ', 'かいぎしつ'],
+      answer: 'きょうしつ',
       img: "images/b1u3/vocabulary/classroom.png"
     },
     {
-      en: 'Cafeteria',
-      question: 'しょくどう',
-      answers: ['shokudou',　'shokutou', 'chokudou', 'chogudo'],
-      answer: 'shokudou',
+      en: '食堂 (Shokudou)',
+      question: 'Write in Japanese: Cafeteria',
+      answers: ['しょくどう',　'じむしょ', 'かいぎしつ', 'うけつけ'],
+      answer: 'しょくどう',
       img: "images/b1u3/vocabulary/cafeteria.jpg"
     },
     {
-      en: 'Office',
-      question: 'じむしょ',
-      answers: ['jimusho', 'himocho', 'jimucho', 'jimusho'],
-      answer: 'jimusho',
+      en: 'Jimusho',
+      question: 'Write in Japanese: Office',
+      answers: ['じむしょ', 'かいぎしつ', 'うけつけ', 'へや'],
+      answer: 'じむしょ',
       img: "images/b1u3/vocabulary/office.jpg"
     },
     {
-      en: 'Conference',
-      question: 'かいぎしつ',
-      answers: ['kaigihitsu', 'kaigijitsu', 'kaikihitsu', 'kaigihisu'],
-      answer: 'kaigihitsu',
+      en: 'Kaigihitsu',
+      question: 'Write in Japanese: Conference',
+      answers: ['かいぎしつ', 'うけつけ', 'へや', 'エレベーター'],
+      answer: 'かいぎしつ',
       img: "images/b1u3/vocabulary/conference.jpg"
     },
     {
-      en: 'Receptionist',
-      question: 'うけつけ',
-      answers: ['uketsuke', 'ukesuke', 'sukesuke', 'uketsuge'],
-      answer: 'uketsuke',
+      en: 'Uketsuke',
+      question: 'Write in Japanese: Receptionist',
+      answers: ['うけつけ', 'へや', 'エレベーター', 'くに'],
+      answer: 'うけつけ',
       img: "images/b1u3/vocabulary/receptionist.jpg"
     },
     {
-      en: 'Bedroom',
-      question: 'へや',
-      answers: ['heya', 'hey', 'heyo', 'heyu'],
-      answer: 'heya',
+      en: 'Heya',
+      question: 'Write in Japanese: Bedroom',
+      answers: ['へや', 'エレベーター', 'くに', 'くつ'],
+      answer: 'へや',
       img: "images/b1u3/vocabulary/bedroom.jpg"
     },
     {
-      en: 'Elevator',
-      question: 'エレベーター',
-      answers: ['erebeetaa', 'erebeta', 'eleheetaa', 'eleheta'],
-      answer: 'erebeetaa',
+      en: 'Erebeetaa',
+      question: 'Write in Japanese: Elevator',
+      answers: ['エレベーター', 'くに', 'くつ', 'ワイン'],
+      answer: 'エレベーター',
       img: "images/b1u3/vocabulary/elevator.jpg"
     },
     {
       en: 'Country',
-      question: '国',
+      question: 'Write in Hiragana: 国',
       answers: ['くに', 'ぐに', 'ひと', 'ほん'],
       answer: 'くに',
       img: "images/b1u3/vocabulary/country.jpg"
     },
     {
-      en: 'Shoes',
-      question: 'くつ',
-      answers: ['kutsu', 'kusu', 'gutsu', 'gusu'],
-      answer: 'kutsu',
+      en: 'Kutsu',
+      question: 'Write in Japanese: Shoes',
+      answers: ['くつ', 'ワイン', 'スイス', 'ベルリン'],
+      answer: 'くつ',
       img: "images/b1u3/vocabulary/shoes.png"
     },
     {
-      en: 'Wine',
-      question: 'ワイン',
-      answers: ['wain', 'rain', 'pain', 'paen'],
-      answer: 'wain',
+      en: 'Wain',
+      question: 'Write in Japanese: Wine',
+      answers: ['ワイン', 'スイス', 'ベルリン', 'かいしゃ'],
+      answer: 'ワイン',
       img: "images/b1u3/vocabulary/wine.png"
     },
     {
-      en: 'Switzerland',
-      question: 'スイス',
-      answers: ['suisu', 'suizu', 'zuizu', 'suesu'],
-      answer: 'suisu',
+      en: 'Suisu',
+      question: 'Write in Japanese: Switzerland',
+      answers: ['スイス', 'ベルリン', 'かいしゃ', 'きょうしつ'],
+      answer: 'スイス',
       img: "images/b1u3/vocabulary/switzerland.png"
     },
     {
-      en: 'Berlin',
-      question: 'ベルリン',
-      answers: ['berurin', 'perurin', 'beruri', 'berirun'],
-      answer: 'berurin',
+      en: 'Berurin',
+      question: 'Write in Japanese: Berlin',
+      answers: ['ベルリン', 'かいしゃ', 'きょうしつ', 'しょくどう'],
+      answer: 'ベルリン',
       img: "images/b1u3/vocabulary/berlin.png"
     },
     {
-      en: 'Company',
-      question: 'かいしゃ',
-      answers: ['kaisha', 'kaicha', 'gaisha', 'kasha'],
-      answer: 'kaisha',
+      en: 'Kaisha',
+      question: 'Write in Japanese: Company',
+      answers: ['かいしゃ', 'きょうしつ', 'しょくどう', 'かいぎしつ'],
+      answer: 'かいしゃ',
       img: "images/b1u3/vocabulary/company.jpg"
     }
   ]

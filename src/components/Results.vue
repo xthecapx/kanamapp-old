@@ -17,7 +17,7 @@
           <tr v-for="error in getErrors">
             <td>{{error.question}}</td>
             <td>{{error.answer}}</td>
-            <td>{{error.translate}}</td>
+            <td>{{error.en}}</td>
           </tr>
         </tbody>
       </table>

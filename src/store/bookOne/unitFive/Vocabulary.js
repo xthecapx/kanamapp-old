@@ -2,136 +2,136 @@ export const Vocabulary = {
   "name": "Unit 5 General",
   "questions": [
     {
-      en: 'To go',
-      question: '行きます　(いきます)',
-      answers: ['To go', 'To leave', 'Going back', 'Leave'],
-      answer: 'To go',
+      en: 'いきます',
+      question: 'Write in Japanese: To go',
+      answers: ['行きます', '来ます', '帰ります', '学校'],
+      answer: '行きます',
       img: "images/b1u5/vocabulary/go.jpg"
     },
     {
-      en: 'Come',
-      question: '来ます　(きます)',
-      answers: ['Come',　'To leave', 'To go', 'School'],
-      answer: 'Come',
+      en: 'きます',
+      question: 'Write in Japanese: Come',
+      answers: ['来ます',　'帰ります', '学校', '行きます'],
+      answer: '来ます',
       img: "images/b1u5/vocabulary/come.jpg"
     },
     {
-      en: 'Return',
-      question: '帰ります　(かえります)',
-      answers: ['Return', 'Going', 'Car', 'Train'],
-      answer: 'Return',
+      en: 'かえります',
+      question: 'Write in Japanese: Return',
+      answers: ['帰ります', '来ます', '学校', '行きます'],
+      answer: '帰ります',
       img: "images/b1u5/vocabulary/return.jpeg"
     },
     {
-      en: 'School',
-      question: '学校 (がっこう)',
-      answers: ['School', 'Supermarket', 'Hospital', 'Room'],
-      answer: 'School',
+      en: 'がっこう',
+      question: 'Write in Japanese: School',
+      answers: ['学校', 'スーパー', 'えき', 'ひこうき'],
+      answer: '学校',
       img: "images/b1u5/vocabulary/school.png"
     },
     {
-      en: 'Supermarket',
-      question: 'スーパー',
-      answers: ['Supermarket', 'School', 'Taxi', 'Metro'],
-      answer: 'Supermarket',
+      en: 'Suupaa',
+      question: 'Write in Japanese: Supermarket',
+      answers: ['スーパー', 'えき', 'ひこうき', 'ふね'],
+      answer: 'スーパー',
       img: "images/b1u5/vocabulary/supermarket.jpg"
     },
     {
-      en: 'Station',
-      question: '駅　(えき)',
-      answers: ['Station', 'Supermarket', 'Boat', 'Person'],
-      answer: 'Station',
+      en: 'Eki (駅)',
+      question: 'Write in Japanese: Station',
+      answers: ['えき', 'ひこうき', 'ふね', 'でんしゃ'],
+      answer: 'えき',
       img: "images/b1u5/vocabulary/station.png"
     },
     {
-      en: 'Airplane',
-      question: '飛行機　(ひこうき)',
-      answers: ['Airplane', 'Supermarket', 'Train', 'Bicycle'],
-      answer: 'Airplane',
+      en: 'Hikouki (飛行機)',
+      question: 'Write in Japanese: Airplane',
+      answers: ['ひこうき', 'ふね', 'でんしゃ', 'じてんしゃ'],
+      answer: 'ひこうき',
       img: "images/b1u5/vocabulary/airplane.png"
     },
     {
-      en: 'Boat',
-      question: '船　(ふね)',
-      answers: ['Boat', 'Supermarket', 'Airplane', 'School'],
-      answer: 'Boat',
+      en: 'Fune (船)',
+      question: 'Write in Japanese: Boat',
+      answers: ['ふね', 'でんしゃ', 'じてんしゃ', 'ひと'],
+      answer: 'ふね',
       img: "images/b1u5/vocabulary/boat.png"
     },
     {
-      en: 'Electric train',
-      question: '電車　(でんしゃ)',
-      answers: ['Electric train', 'Taxi', 'Foot', 'Friend'],
-      answer: 'Electric train',
+      en: 'Tensha (電車)',
+      question: 'Write in Japanese: Electric train',
+      answers: ['でんしゃ', 'じてんしゃ', 'ひと', 'ともだち'],
+      answer: 'でんしゃ',
       img: "images/b1u5/vocabulary/electric_train.png"
     },
     {
-      en: 'Bicycle',
-      question: '自転車　(じてんしゃ)',
-      answers: ['Bicycle', 'Electric train', 'Car', 'Boat'],
-      answer: 'Bicycle',
+      en: 'Jitensha (自転車)',
+      question: 'Write in Japanese: Bicycle',
+      answers: ['じてんしゃ', 'ひと', 'ともだち', 'かれ'],
+      answer: 'じてんしゃ',
       img: "images/b1u5/vocabulary/bicycle.png"
     },
     {
-      en: 'Person',
-      question: '人　(ひと)',
-      answers: ['Person', 'Friend', 'Boyfriend', 'Girlfriend'],
-      answer: 'Person',
+      en: 'Hito (人)',
+      question: 'Write in Japanese: Person',
+      answers: ['ひと', 'ともだち', 'かれ', 'かのじょ'],
+      answer: 'ひと',
       img: "images/b1u5/vocabulary/person.png"
     },
     {
-      en: 'Friends',
-      question: '友達　(ともだち)',
-      answers: ['Friends', 'Person', 'Girlfriend', 'Women'],
-      answer: 'Friends',
+      en: 'Tomodachi (友達)',
+      question: 'Write in Japanese: Friends',
+      answers: ['ともだち', 'かれ', 'かのじょ', 'かぞく'],
+      answer: 'ともだち',
       img: "images/b1u5/vocabulary/friends.png"
     },
     {
-      en: 'Boyfriend',
-      question: '彼　(かれ)',
-      answers: ['Boyfriend', 'Girlfriend', 'Friend', 'Man'],
-      answer: 'Boyfriend',
+      en: 'Kareshi (彼氏)',
+      question: 'Write in Japanese: Boyfriend',
+      answers: ['かれし', 'かのじょ', 'かぞく', 'ひと'],
+      answer: 'かれし',
       img: "images/b1u5/vocabulary/boyfriend.png"
     },
     {
-      en: 'Girlfriend',
-      question: '彼女　(かのじょ)',
-      answers: ['Girlfriend', 'Boyfriend', 'Person', 'Father'],
-      answer: 'Girlfriend',
+      en: 'Kanojo (彼女)',
+      question: 'Write in Japanese: Girlfriend',
+      answers: ['かのじょ', 'かれし', 'かぞく', 'ひと'],
+      answer: 'かのじょ',
       img: "images/b1u5/vocabulary/girlfriend.png"
     },
     {
-      en: 'Family',
-      question: '家族　(かぞく)',
-      answers: ['Family', 'Boyfriend', 'Girlfriend', 'Person'],
-      answer: 'Family',
+      en: 'Kazoku (家族)',
+      question: 'Write in Japanese: Family',
+      answers: ['かぞく', 'かれし', 'かのじょ', 'タクツー'],
+      answer: 'かぞく',
       img: "images/b1u5/vocabulary/family.png"
     },
     {
-      en: 'Birthday',
-      question: '誕生日　(たんじょうび)',
-      answers: ['Birthday', 'Christmas', 'White day', 'Valentine day'],
-      answer: 'Birthday',
+      en: 'Tanjoubi (誕生日)',
+      question: 'Write in Japanese: Birthday',
+      answers: ['たんじょうび', 'クリスマス', 'ホワイトデー', 'タクツー'],
+      answer: 'たんじょうび',
       img: "images/b1u5/vocabulary/birthday.png"
     },
     {
       en: 'Taxi',
-      question: 'タクツー',
-      answers: ['Taxi', 'Car', 'Train', 'Boat'],
-      answer: 'Taxi',
+      question: 'Write in Japanese: Taxi',
+      answers: ['タクシー', 'くるま', 'ふね', 'でんしゃ'],
+      answer: 'タクシー',
       img: "images/b1u5/vocabulary/taxi.png"
     },
     {
-      en: 'Christmas',
-      question: 'クリスマス',
-      answers: ['Christmas', 'Birthday', 'White day', 'Valentine day'],
-      answer: 'Christmas',
+      en: 'Kurisumasu',
+      question: 'Write in Japanese: Christmas',
+      answers: ['クリスマス', 'ホワイトデー', 'たんじょうび', 'かのじょ'],
+      answer: 'クリスマス',
       img: "images/b1u5/vocabulary/christmas.png"
     },
     {
-      en: 'White day',
-      question: 'ホワイトデー',
-      answers: ['White day', 'Birthday', 'Christmas', 'Valentine day'],
-      answer: 'White day',
+      en: 'Howaitodee',
+      question: 'Write in Japanese: White day',
+      answers: ['ホワイトデー', 'クリスマス', 'スーパー', 'かれし'],
+      answer: 'ホワイトデー',
       img: "images/b1u5/vocabulary/white_day.png"
     }
   ]

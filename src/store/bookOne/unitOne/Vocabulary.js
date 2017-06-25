@@ -2,87 +2,87 @@ export const Vocabulary = {
   "name": "Unit 1 General",
   "questions": [
     {
-      en: 'Bread',
-      question: 'パン',
-      answers: ['pan', 'ban', 'han', 'patsu'],
-      answer: 'pan',
+      en: 'Pan',
+      question: 'Write in Japanese: Bread',
+      answers: ['パン', 'テレビ', 'カメラ', 'トイレ'],
+      answer: 'パン',
       img: "images/b1u1/vocabulary/bread.png"
     },
     {
-      en: 'TV',
-      question: 'テレビ',
-      answers: ['terebi', 'terehi', 'tehepi', 'terevi'],
-      answer: 'terebi',
+      en: 'Terebi',
+      question: 'Write in Japanese: TV',
+      answers: ['テレビ', 'カメラ', 'ソファー', 'ベツド'],
+      answer: 'テレビ',
       img: "images/b1u1/vocabulary/tv.png"
     },
     {
-      en: 'Camera',
-      question: 'カメラ',
-      answers: ['kamera', 'gamera', 'ramera', 'kamewa'],
-      answer: 'kamera',
+      en: 'Kamera',
+      question: 'Write in Japanese: Camera',
+      answers: ['カメラ', 'トイレ', 'ソファー', 'ベツド'],
+      answer: 'カメラ',
       img: "images/b1u1/vocabulary/camera.png"
     },
     {
-      en: 'Toilet',
-      question: 'トイレ',
-      answers: ['toire', 'loire', 'doire', 'toeri'],
-      answer: 'toire',
+      en: 'Toire',
+      question: 'Write in Japanese: Toilet',
+      answers: ['トイレ', 'ソファー', 'ベツド', 'シャツ'],
+      answer: 'トイレ',
       img: "images/b1u1/vocabulary/toilet.png"
     },
     {
-      en: 'Sofa',
-      question: 'ソファー',
-      answers: ['sofuaa', 'sonfa', 'nfu', 'sofaa'],
-      answer: 'sofuaa',
+      en: 'Sofaa',
+      question: 'Write in Japanese: Sofa',
+      answers: ['ソファー', 'コーヒー', 'シャツ', 'ジュース'],
+      answer: 'ソファー',
       img: "images/b1u1/vocabulary/sofa.png"
     },
     {
-      en: 'Bed',
-      question: 'ベツド',
-      answers: ['betsudo', 'betsuto', 'hesuto', 'pentudo'],
-      answer: 'betsudo',
+      en: 'Beddo',
+      question: 'Write in Japanese: Bed',
+      answers: ['ベッド', 'シャツ', 'コーヒー', 'ジュース'],
+      answer: 'ベッド',
       img: "images/b1u1/vocabulary/bed.png"
     },
     {
-      en: 'Shirt',
-      question: 'シャツ',
-      answers: ['shiatsu', 'shatsu', 'shisu', 'chatsu'],
-      answer: 'shatsu',
+      en: 'Shatsu',
+      question: 'Write in Japanese: Shirt',
+      answers: ['シャツ', 'コーヒー', 'ジュース', 'エアコン'],
+      answer: 'シャツ',
       img: "images/b1u1/vocabulary/shirt.png"
     },
     {
-      en: 'Coffee',
-      question: 'コーヒー',
-      answers: ['koohii', 'kohi', 'robi', 'kofi'],
-      answer: 'koohii',
+      en: 'Koohii',
+      question: 'Write in Japanese: Coffee',
+      answers: ['コーヒー', 'ジュース', 'エアコン', 'シャワー'],
+      answer: 'コーヒー',
       img: "images/b1u1/vocabulary/coffee.png"
     },
     {
-      en: 'Juice',
-      question: 'ジュース',
-      answers: ['jiuusu', 'juusu', 'hiusu', 'yusu'],
-      answer: 'juusu',
+      en: 'Juusu',
+      question: 'Write in Japanese: Juice',
+      answers: ['ジュース', 'エアコン', 'シャワー', 'テーブル'],
+      answer: 'ジュース',
       img: "images/b1u1/vocabulary/juice.png"
     },
     {
-      en: 'Air Conditioner',
-      question: 'エアコン',
-      answers: ['eakon', 'iakon', 'iyakon', 'akon'],
-      answer: 'eakon',
+      en: 'Eakon',
+      question: 'Write in Japanese: Air Conditioner',
+      answers: ['エアコン', 'シャワー', 'テーブル', 'コーヒー'],
+      answer: 'エアコン',
       img: "images/b1u1/vocabulary/airco.png"
     },
     {
-      en: 'Shower',
-      question: 'シャワー',
-      answers: ['shiawa', 'shawaa', 'shawa', 'chawa'],
-      answer: 'shawaa',
+      en: 'Shawaa',
+      question: 'Write in Japanese: Shower',
+      answers: ['シャワー', 'テーブル', 'シャツ', 'ベツド'],
+      answer: 'シャワー',
       img: "images/b1u1/vocabulary/shower.png"
     },
     {
-      en: 'Table',
-      question: 'テーブル',
-      answers: ['teeburu', 'teburu', 'deepuru', 'teeburi'],
-      answer: 'teeburu',
+      en: 'Teeburu',
+      question: 'Write in Japanese: Table',
+      answers: ['テーブル', 'パン', 'テレビ', 'トイレ'],
+      answer: 'テーブル',
       img: "images/b1u1/vocabulary/table.png"
     }
   ]
