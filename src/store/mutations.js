@@ -1,4 +1,4 @@
-import { VOCABULARY } from './VOCABULARY'
+import { VOCABULARY, DICTIONARY } from './VOCABULARY'
 import { TOPICS } from './TOPICS'
 
 export const states = {
@@ -7,9 +7,11 @@ export const states = {
   id: 0,
   type: '',
   vocabulary: VOCABULARY,
+  dictionary: DICTIONARY,
   topics: TOPICS,
   progressBar: 0,
-  errors: []
+  errors: [],
+  active: 'active0'
 }
 
 export const getters = {
@@ -31,17 +33,26 @@ export const getters = {
   getVocabulary(state) {
     return state.vocabulary
   },
+  getDictionary(state) {
+    return state.dictionary
+  },
   getType(state) {
     return state.type
   },
   getTopics(state) {
     return state.topics
+  },
+  getActive(state) {
+    return state.active
   }
 }
 
 export const mutations = {
   setVocabulary(state, info) {
     state.vocabulary[info.key] = info.vocabulary
+  },
+  setActive(state, active) {
+    state.active = active
   },
   setProgressBar(state, progressBar) {
     state.progressBar = progressBar

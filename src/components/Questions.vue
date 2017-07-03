@@ -35,6 +35,7 @@
               answer: "",
               translate: "",
               image: "",
+              numberOfQuestion: 10,
               btnData: [
                   {correct: true, answer: 0},
                   {correct: false, answer: 0},
@@ -49,7 +50,7 @@
             let words = this.getVocabulary[this.getId][this.getUnit].questions
             this.updateProgress(words)
 
-            if (this.getStart > words.length - 1) {
+            if (this.getStart >= this.numberOfQuestion) {
               this.$emit('results');
               return
             }
@@ -106,7 +107,7 @@
             this.$emit('answered', answered);
           },
           updateProgress(words) {
-            this.$store.commit("setProgressBar", this.getStart*100 / words.length)
+            this.$store.commit("setProgressBar", this.getStart * 100 / this.numberOfQuestion)
           }
       },
       components: { tooltipHeading },

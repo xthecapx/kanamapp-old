@@ -94,5 +94,18 @@ export const TOPICS = [
         vocabulary: "Find Kanji Exercise"
       }
     ]
+  },
+  {
+    id: "unitSix",
+    header: "Unit 6",
+    grammar: "Grammar",
+    units: [
+      {
+        vocabulary: "General Vocabulary"
+      },
+      {
+        vocabulary: "Kanji Exercise"
+      }
+    ]
   }
 ]

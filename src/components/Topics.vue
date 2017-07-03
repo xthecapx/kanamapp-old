@@ -9,11 +9,11 @@
       <v-ons-list-header
         :key="key"
         :class="{'active': active == 'active' + key}"
-        @click="active = 'active' + key">{{topic.header}}</v-ons-list-header>
+        @click="toggle(key)">{{topic.header}}</v-ons-list-header>
       <transition
         enter-active-class="animated zoomInDown"
         leave-active-class="animated zoomOutUp">
-        <div class="content" v-if="active == 'active' + key">
+        <div class="content" v-if="getActive == 'active' + key">
           <v-ons-list-item
             modifier="chevron"
             tappable
@@ -40,7 +40,7 @@
         active: "active0"
       }
     },
-    computed: mapGetters(['getTopics']),
+    computed: mapGetters(['getTopics', 'getActive']),
     methods: {
       goVocabulary(key, isWrite, id) {
         this.$store.commit("setStart", 0)
@@ -67,6 +67,9 @@
             case "Unit 5":
                 this.$store.commit("setType", 'b1u5')
                 break;
+            case "Unit 6":
+                this.$store.commit("setType", 'b1u6')
+                break;
             default:
                 this.$store.commit("setType", 'b1u1')
         }
@@ -78,6 +81,9 @@
         } else {
           this.$store.commit("setType", 'app-multiple')
         }
+      },
+      toggle(key) {
+        this.$store.commit("setActive", 'active' + key)
       }
     }
   }

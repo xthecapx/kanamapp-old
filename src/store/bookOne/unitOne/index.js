@@ -4,3 +4,4 @@ import { Kanjis } from './Kanjis' //3
 import { Writing } from './Writing' //4
 
 export const unitOne = [Vocabulary, Countries, Kanjis, Writing]
+export const unitOneDictionary = Vocabulary.questions.concat(Countries.questions, Kanjis.questions)

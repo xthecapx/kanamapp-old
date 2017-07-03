@@ -28,18 +28,20 @@
 <script>
   import BookOne from './pages/BookOne';
   import AppReference from './pages/Reference';
+  import Dictionary from './pages/Dictionary';
 
   export default {
     data() {
       return {
         currentPage: 'BookOne',
-        pages: ['BookOne', 'Answer'],
+        pages: ['BookOne', 'Answer', 'Dictionary'],
         openSide: false
       }
     },
     components: {
       "BookOne": BookOne,
-      "Answer": AppReference
+      "Answer": AppReference,
+      "Dictionary": Dictionary
     }
   }
 </script>

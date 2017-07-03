@@ -42,7 +42,7 @@
   export default {
     data() {
       return {
-        columns: ['img', 'question', 'answer'],
+        columns: ['img', 'answer', 'en'],
         options: {
           templates: {
               img: function(h, src) {

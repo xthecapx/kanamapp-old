@@ -3,6 +3,7 @@
     <v-ons-progress-bar :value="getProgressBar"></v-ons-progress-bar>
     <div class="col-xs-12 col-sm-8 col-md-12">
       <v-ons-button modifier="quiet" style="margin: 6px 0" @click="goTopics">Go Topics</v-ons-button>
+      <span>{{getStart}} / 10</span>
       <transition
         enter-active-class="animated flipInY"
         leave-active-class="animated flipOutY"
@@ -30,7 +31,7 @@
         mode: 'app-question'
       }
     },
-    computed: mapGetters(['getType', 'getProgressBar']),
+    computed: mapGetters(['getType', 'getProgressBar', 'getStart']),
     components: {
       "app-multiple": appQuestion,
       "app-answer": appAnswer,
